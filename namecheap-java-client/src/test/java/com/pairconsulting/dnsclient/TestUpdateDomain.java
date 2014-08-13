@@ -16,11 +16,11 @@ public class TestUpdateDomain extends AbstractTestCase{
 
     @Test
     @Override
-    public void execute() throws Exception {
+    public void execute() throws Exception { /*
         DNSProvider dnsProvider = new NamecheapProvider();
         String name = "ayavamgovoril-test5.net";
         Domain domain = new Domain(name, new DomainRecord("@", "77.13.125.231", RecordType.A));
         domain.addRecord(new DomainRecord("www", name, RecordType.CNAME));
-        log.debug("Update Domain {}", dnsProvider.updateDomain(domain));
+        log.debug("Update Domain {}", dnsProvider.updateDomain(domain));*/
     }
 }
